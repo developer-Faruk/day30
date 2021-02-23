@@ -1,0 +1,58 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+/* .carousel {
+    background: url(./pexels-pixabay-33689.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+} */
+
+html,body img{
+    max-width: 100%;
+    height: 600px;
+}
+.control-h{
+    width: 200px;
+   
+}
+.baner-bottom {
+    background-color:#0dcaf0 ;
+}
+
+
+.carousl-item span{
+    position: relative;
+    z-index: 1;
+}
+.carousel-item span::after{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: .7;
+    left: 0;
+
+}
+
+
+.progress {
+    margin: 3% 0;
+}
+.fotter{
+    padding: 5% 15%;
+}
+.right-baner img {
+
+}
+.accordion-body img{
+    width: 100%;
+	height: 258px;
+	padding: px;
+}
+
+.right-baner {
+	padding-top: 24px;
+	padding-left: 18px;
+}
